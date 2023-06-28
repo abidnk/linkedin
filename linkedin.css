@@ -1,0 +1,258 @@
+.main{
+    display: flex;
+ 
+    height: 70px;
+    width: 100vw;
+    margin-top: 5px;
+    
+    
+}
+#img1{
+    height: 150%;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+
+
+.White-first{
+    width: 45%;
+    height: 70px;
+    display: flex;
+    padding-left: 30px;
+  
+    
+}
+.midtop{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.line{
+    border-right: solid black 1.5px;
+    height: 60%;
+    margin-top: 15px;
+}
+.white-middle-top{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    
+ 
+    justify-content: space-around;
+    align-items: center; 
+    opacity: 70%;
+
+
+}
+.white-middle-top:hover{
+    
+        
+    opacity: 100%;
+          
+          }
+
+.White-middle-bottom{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    padding-bottom: 10px;
+    
+    justify-content: space-around;
+    align-items: center;
+   margin-bottom: 10px;
+   
+    
+
+}
+
+
+#ic1{
+
+ height: 60%;
+ position: relative;
+ left: 5px;
+ top: 8px;
+    
+
+}
+
+#ic2{
+    position: relative;
+    left: 17px;
+    top: 8px;
+  
+    height: 60%;
+    
+
+}
+#ic3{
+    position: relative;
+    left: 28px;
+    top: 8px;
+ 
+    height: 65%;
+    
+
+}
+#ic4{
+    position: relative;
+    left: 17px;
+    top: 8px;
+   
+    height: 110%;
+    
+
+}
+.White-last{
+    display: flex;
+    width: 25%;
+   
+    height: 70px;
+    
+    align-items: center;
+    padding-left: 20px;
+   
+
+    
+    
+}
+
+
+    
+
+#b1{
+    border: none;
+    background: none;
+    height: 50px;
+    width: 90px;
+}
+#b1:hover{
+    border: none;
+    border-radius: 30px;
+    background-color: lightgray;
+}
+#b2{
+    border: 1px solid blue;
+    border-radius: 30px;
+    background: transparent;
+    height: 50px;
+    
+    position: relative;
+    left: 20px;
+    width: 80px;
+    color: rgb(56, 27, 244);
+
+
+}
+#b2:hover{
+    background-color: rgb(210, 234, 242);
+}
+
+
+.bg{
+   
+    background-image: url(Assets/linkendin.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    margin-left: 48px;
+  height: 100vh;
+  width: 100vw;
+  
+  
+   
+ 
+}
+#hh5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  color: brown;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+input{
+
+margin-top: 5px;
+    width: 400px;
+    height: 48px;
+    margin-bottom: 8px;
+
+}
+#Signin{
+
+    width: 400px;
+    height: 48px;
+    border-radius: 18px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+}
+#or{
+    color: grey;
+}
+
+.high{
+    overflow: hidden;
+    
+}
+body{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+li{
+    display: inline-block;
+    opacity: 60%;
+}
+li:hover{
+    opacity: 100%;
+}
+input:hover{
+    border-color: black;
+    border-radius: 3px;
+    size: 5px;
+}
+#Signin:hover{
+    background-color: rgb(4, 4, 86);
+}
+#google{
+    width: 400px;
+    height: 48px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: transparent;
+    
+}
+#new{
+    width: 400px;
+    height: 48px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px;
+
+}
+#google:hover{
+    background-color: rgb(172, 192, 198);
+}
+#new:hover{
+    background-color: rgb(214, 211, 206);
+}
